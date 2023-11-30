@@ -10,11 +10,6 @@ class KlosterkeItem
 
     protected int $daysBeforeExpiration;
 
-    /**
-     * @param string $name
-     * @param int    $quality
-     * @param int    $daysBeforeExpiration
-     */
     public function __construct(string $name, int $quality, int $daysBeforeExpiration)
     {
         $this->name = $name;
